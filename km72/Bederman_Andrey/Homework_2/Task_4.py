@@ -1,0 +1,5 @@
+print("Condition: N students received K apples and distribute them equally. The undiluted apples remained in the basket. How many apples will each student receive? How many apples will remain in the basket?")
+N=int(input("Enter the number of students:"))
+K=int(input("Enter the number of apples:"))
+print("Every student received", K//N, "apple(s)","\nand", K%N, "apple(s) left in the basket")
+input("\n\nPress Enter to exit the program.")
