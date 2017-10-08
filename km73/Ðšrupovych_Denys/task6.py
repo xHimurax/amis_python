@@ -1,0 +1,6 @@
+print('School desks')
+a = int(input('Group 1:'))   
+b = int(input('Group 2:'))   
+c = int(input('Group 3:'))   
+print('Amount of school desks:',(a//2+a%2)+(b//2+b%2)+(c//2+c%2))
+input()
