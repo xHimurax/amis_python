@@ -1,5 +1,8 @@
-a = float(input("Введіть число a: "))
-b = float(input("Введіть число b: "))
-c = float(input("Введіть число c: "))
+a = int(input("Enter first  number: "))
+b = int(input("Enter second  number: "))
 
-print("Їх сума = ", a+b+c)
+if (a > b):
+    print("The smallest number is ",b)
+elif (a < b):
+    print("The smallest number is ",a)
+

@@ -1,5 +1,10 @@
-a = float(input("Введіть довжину катета a: "))
-b = float(input("Введіть довжину катета b: "))
+x = float(input("Enter number: "))
 
-print("Площа прямокутного трикутника S =",(a*b)/2)
+if (x > 0):
+    answer = 1
+elif (x < 0):
+    answer = -1
+else:
+    answer = 0
 
+print("sign(x) = ",answer)

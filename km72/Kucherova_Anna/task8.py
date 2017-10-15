@@ -5,9 +5,9 @@ y2 = int(input("y2 = "))
 
 a = (x1 + y1)
 b = (x2 + y2)
-if (a % 2 == 0) & (b % 2 == 0):
+if a-2 <= b <= a+2:
     print("YES")
-elif (a % 2 != 0) & (b % 2 != 0):
+elif b-2 <= a <= b+2:
     print("YES")
 else:
     print("NO")

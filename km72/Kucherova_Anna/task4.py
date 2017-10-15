@@ -1,5 +1,9 @@
-N = int(input("Кількість студентів N = "))
-K = int(input("Кількість яблук K = "))
+x = int(input("Enter year: "))
 
-print("Кількість яблук у студента:", K // N)
-print("Кількість яблук у кошику:", K % N)
+if (x % 4 == 0) & (x % 100 !=0):
+    print("LEAP")
+elif (x % 400 == 0):
+    print("LEAP")
+else:
+    print("COMMON")
+
