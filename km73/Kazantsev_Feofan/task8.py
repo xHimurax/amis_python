@@ -6,7 +6,7 @@ x2 = int(input())
 y2 = int(input())
 if x1 > 8 or x2 > 8 or y1 > 8 or y2 > 8 :
     answer =  "You are a genius. Try once more" 
-elif x1 == x2 or y1 == y2 :
+elif (x1+1==x2 or x1-1==x2 or x1==x2) and (y1+1==y2 or y1==y2 or y1-1==y2) :
     answer = "YES"
 elif x1==x2 and y1==y2 :
     answer = "NO"
