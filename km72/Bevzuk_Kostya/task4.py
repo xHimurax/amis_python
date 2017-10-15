@@ -1,5 +1,9 @@
-a = int (input("Enter number of students:"))
-b = int (input("Enter number of apples:"))
-Task1 = b//a
-Task2 = b%a
-print('Students have:', Task1 ,"Left in backet:", Task2)
+x = int(input("Input year:"))
+y = x//400
+z = x//4
+if x == y*400:
+    print("LEAP")
+elif x == z*4 and x%100 :
+    print("LEAP")
+else:
+    print("COMMON")

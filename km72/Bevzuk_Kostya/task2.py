@@ -1,6 +1,11 @@
-a = float (input("Довжина першого катета:"))
-b = float (input("Довжина другого катета:"))
-S = a/2*b/2
-print ("Площа", S)
-
-
+try:
+    x = float(input("Enter number:"))
+except:
+    ValueError
+    print("Incorrect")
+if x > 0:
+    print ("+")
+if x < 0:
+    print ("-")
+if x == 0:
+    print (")")
