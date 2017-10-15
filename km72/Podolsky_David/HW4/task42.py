@@ -1,0 +1,9 @@
+print('Task4.2')
+while True:
+ x=int(input('Please enter x: '))
+ if x>0:
+	 print('sign(x)=1')
+ elif x<0:
+	 print('sign(x)=-1')
+ else:
+	 print('sign(x)=0')
