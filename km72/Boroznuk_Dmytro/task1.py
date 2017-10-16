@@ -1,6 +1,10 @@
 import time
-x=float(input("Введите значение числа x="))
-y=float(input("Введите значение числа y="))
-z=float(input("Введите значение числа z="))
-print("x+y+z=", float(x+y+z))
+a=int(input("Enter first_number:"))
+b=int(input("Enter second_number:"))
+if a>b:
+  print(b)
+elif a<b:
+  print(a)
+else:
+  print("They are equal")
 time.sleep(3)

@@ -1,6 +1,9 @@
 import time
-first_length=float(input("First cathetus: ")) #Перший катет
-second_length=float(input("Second cathetus: ")) #Другий катет
-area=((first_length*second_length)/2) 
-print("Area is", area)
+x=float(input("Введите значение x:"))
+if x>0:
+  print("sign(x)=1")
+elif x<0:
+  print("sign(x)=-1")
+else:
+  print("sign(x)=0")
 time.sleep(3)
