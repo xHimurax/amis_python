@@ -1,25 +1,5 @@
-print("Вітаємо!\nЦя програма друкує сусідні цілі числа введеного значення.\n")
-
-import time
-time.sleep(2)
-
-while True:
-    try:
-        num = int(input("Введіть номер: "))
-        break
-    except Exception:
-        print("Неправильний формат\n")
-        time.sleep(1)
-        continue
-
+num = int(input("Enter number: "))
 nextNum = int(num+1)
 prevNum = int(num-1)
-
-time.sleep(1)
-print("\nНаступне число значення '",num,"' - це '",nextNum,"'")
-print("Минуле число значення '",num,"' - це '",prevNum,"'") 
-
-
-
-
-                  
+print("Next number of",num,"is",nextNum)
+print("Last number of",num,"is",prevNum) 

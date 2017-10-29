@@ -1,9 +1,6 @@
 first_number = int(input("Enter first number: "))
 second_number = int(input("Enter second number: "))
 third_number = int(input("Enter third number: "))
-
-print()     #JUST an INDENT
-
 if first_number == second_number:
     if second_number == third_number:
         print(3)

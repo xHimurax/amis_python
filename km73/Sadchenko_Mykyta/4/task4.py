@@ -1,13 +1,11 @@
-while True:
+error = True
+while error:
     year = int(input("Enter value of years: "))
-
     if year > 0:
-        if (year%400 == 0) | ((year%4 == 0)&(year%100 != 0)):
-            print("\nLEAP")
+        if (year % 400 == 0) | ((year % 4 == 0) & (year % 100 != 0)):
+            print("LEAP")
         else:
-            print("\nCOMMON")
-        break
+            print("COMMON")
+        error = False
     else:
-        print("\nNeed a positive number")
-        continue
-    
+        print("Need a positive number")

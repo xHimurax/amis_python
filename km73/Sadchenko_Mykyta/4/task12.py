@@ -1,9 +1,8 @@
-while True:
+error=True
+while error:
     n = int(input("Enter value of row: "))
     m = int(input("Enter value of column: "))
     k = int(input("Enter rest of cells: "))
-    print()     #JUST an INDENT
-
     if (n>0) & (m>0) & (k>0):
         d=n*m
         if k<=d:
@@ -14,10 +13,6 @@ while True:
         else:
             print("Enter 'k' correctly")
             continue
-        break
+        error=False
     else:
         print("Enter positive number")
-        continue
-
-
-
