@@ -12,29 +12,3 @@ for i in range(1,k+1):
             N.pop(j)
             N.insert(j,".")
 print(''.join(str(h) for h in N))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-nlist=[]
-for u in range(1,n):
-    list.append(u)
-for i in range(1,k):
-    l = int(input("l: "))
-    r = int(input("r: "))
-    if (1<=l<=r<=n):
-        nlist.append(l-1)
-        nlist.append(r-l)
-        nlist.append(n-r)
-'''
