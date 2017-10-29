@@ -1,0 +1,5 @@
+print('Area of a right triangle')
+a = int(input('Cathetus 1:'))
+b = int(input('Cathetus 2:'))
+print((a * b)/2)
+input()
