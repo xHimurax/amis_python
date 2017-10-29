@@ -1,6 +1,0 @@
-list = input().split()
-k=int(input())
-c=input()
-list.insert(k, c)
-print(" ".join(list))
-input("\n\nPress Enter to exit the program.")

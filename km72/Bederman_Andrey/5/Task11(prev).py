@@ -1,5 +1,0 @@
-list = input("enter list:").split()
-k=int(input("enter k:"))
-list.pop(k)
-print(" ".join(list))
-input("\n\nPress Enter to exit the program.")
