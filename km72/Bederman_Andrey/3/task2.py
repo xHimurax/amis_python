@@ -1,0 +1,5 @@
+print("This program calculates the area of ​​the triangle ABC by two cateches")
+a=float(input("Enter the length of the first catechium AB="))
+b=float(input("Enter the length of the first catechium BC="))
+print("S(ABC)=", 0.5*a*b)
+input("\n\nPress Enter to exit the program.")
