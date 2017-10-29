@@ -1,0 +1,5 @@
+print('starting programm')
+a=int(input('students in 1st group: '))
+b=int(input('students in 2nd group: '))
+c=int(input('students in 3rd group: '))
+print('amount of desks =',((a+b+c)//2)+1)
