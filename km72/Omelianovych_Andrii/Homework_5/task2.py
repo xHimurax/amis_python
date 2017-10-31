@@ -1,1 +1,0 @@
-[print(i) for i in [int(x) for x in input().split()] if i%2 == 0]
