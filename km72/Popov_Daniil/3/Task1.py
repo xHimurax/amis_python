@@ -1,0 +1,5 @@
+print ('starting programm')
+a=float(input('input 1st number: '))
+b=float(input('input 2nd number: '))
+c=float(input('input 3rd number: '))
+print('sum= ',a+b+c)
