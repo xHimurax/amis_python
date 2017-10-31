@@ -1,4 +1,4 @@
-print('                 Task 3')
+print('                 Task 5')
 A=False
 borders=['1', '2', '3','4', '5', '6', '7', '8']
 print('The coordinates are: x - horizontal and y - vertical\ni - is number of queen\nEnter your coordinates')
