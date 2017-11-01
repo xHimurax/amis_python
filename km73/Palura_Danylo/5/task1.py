@@ -14,31 +14,31 @@ while not A:
                 control=False
                 break
 ########CLASS CONTROL
-        if control==True:
+        if control:
             for child in CLASS:
                 for N in child:
                     if Q.find(N)==-1:
                         control=False
                         break
-                if control == False:
+                if not control:
                     break
 ########CONTROL OF NONEMPTINESS
-        if control==True:
-            control=bool(bool(CLASS)==True)
-        if control==True:
-            control=bool(bool(PETER)==True)
+        if control:
+            control=bool(CLASS)
+        if control:
+            control=bool(PETER)
 ########INTATION AND 1-200 CONTROL
-        if control == True:
+        if control:
             for i in range(0, len(CLASS)):
                 CLASS[i]=int(CLASS[i])
                 if (CLASS[i]>200) | (CLASS[i]<1):
                     control=False
                     break
             PETER=int(PETER)
-            if control == True:
+            if control:
                 if (PETER>200) | (PETER<1):
                     control=False
-        if control==False:
+        if not control:
             print("\nUncorrect data: any height must be integer between 1 and 200\n")
 
 ########SOLVING
